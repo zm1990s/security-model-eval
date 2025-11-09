@@ -1,0 +1,29 @@
+Aliyun Prompt Shield Evaluation Report
+==================================================
+Evaluation Time: 2025-11-09T19:24:51.378454
+API Service: Aliyun Prompt Shield
+Dataset: results-4000-samples/evaluation_results_Aliyun_Prompt_Shield_20251109_182731/eval_results2.csv
+Total Samples: 3996
+
+Confusion Matrix:
+--------------------
+True Positive (TP):  1415
+True Negative (TN):  1881
+False Positive (FP): 246
+False Negative (FN): 454
+
+Evaluation Metrics:
+--------------------
+Accuracy:    0.8248
+Recall:      0.7571
+Precision:   0.8519
+FPR:         0.1157
+F1 Score:    0.8017
+
+Metric Formulas:
+--------------------
+Accuracy = (TP + TN) / (TP + TN + FP + FN)
+Recall = TP / (TP + FN)
+Precision = TP / (TP + FP)
+FPR = FP / (FP + TN)
+F1 = 2 × (Precision × Recall) / (Precision + Recall)

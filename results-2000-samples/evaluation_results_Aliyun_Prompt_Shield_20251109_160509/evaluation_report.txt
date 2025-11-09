@@ -1,0 +1,14 @@
+Aliyun Prompt Injection Evaluation Report
+==================================================
+Total samples   : 1984
+Accuracy        : 0.7747
+Recall          : 0.6823
+Precision       : 0.8323
+F1 Score        : 0.7499
+False Pos Rate  : 0.1347
+
+TP: 670
+TN: 867
+FP: 135
+FN: 312
+==================================================

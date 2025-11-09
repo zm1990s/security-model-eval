@@ -1,0 +1,19 @@
+{
+  "evaluation_time": "2025-11-09T15:51:43.563119",
+  "api_service": "Azure Prompt Shield",
+  "dataset_path": "datasets/merged_datasets_short_3000.csv",
+  "total_samples": 2999,
+  "confusion_matrix": {
+    "true_positive": 494,
+    "true_negative": 1477,
+    "false_positive": 91,
+    "false_negative": 937
+  },
+  "metrics": {
+    "accuracy": 0.6572190730243415,
+    "recall": 0.34521313766596784,
+    "precision": 0.8444444444444444,
+    "false_positive_rate": 0.05803571428571429,
+    "f1_score": 0.4900793650793651
+  }
+}

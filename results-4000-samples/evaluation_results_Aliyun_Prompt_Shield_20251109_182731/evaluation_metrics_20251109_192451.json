@@ -1,0 +1,19 @@
+{
+  "evaluation_time": "2025-11-09T19:24:51.378057",
+  "api_service": "Aliyun Prompt Shield",
+  "dataset_path": "results-4000-samples/evaluation_results_Aliyun_Prompt_Shield_20251109_182731/eval_results2.csv",
+  "total_samples": 3996,
+  "confusion_matrix": {
+    "true_positive": 1415,
+    "true_negative": 1881,
+    "false_positive": 246,
+    "false_negative": 454
+  },
+  "metrics": {
+    "accuracy": 0.8248248248248248,
+    "recall": 0.7570893525949706,
+    "precision": 0.851896447922938,
+    "false_positive_rate": 0.1156558533145275,
+    "f1_score": 0.8016997167138811
+  }
+}

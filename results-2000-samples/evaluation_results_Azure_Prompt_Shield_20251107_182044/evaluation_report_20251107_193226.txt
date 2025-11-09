@@ -1,0 +1,29 @@
+Azure Prompt Shield Evaluation Report
+==================================================
+Evaluation Time: 2025-11-07T19:32:26.236242
+API Service: Azure Prompt Shield
+Dataset: datasets/merged_datasets_short_2000.csv
+Total Samples: 1999
+
+Confusion Matrix:
+--------------------
+True Positive (TP):  330
+True Negative (TN):  925
+False Positive (FP): 80
+False Negative (FN): 664
+
+Evaluation Metrics:
+--------------------
+Accuracy:    0.6278
+Recall:      0.3320
+Precision:   0.8049
+FPR:         0.0796
+F1 Score:    0.4701
+
+Metric Formulas:
+--------------------
+Accuracy = (TP + TN) / (TP + TN + FP + FN)
+Recall = TP / (TP + FN)
+Precision = TP / (TP + FP)
+FPR = FP / (FP + TN)
+F1 = 2 × (Precision × Recall) / (Precision + Recall)

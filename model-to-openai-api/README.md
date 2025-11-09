@@ -237,12 +237,15 @@ The following table shows the performance of different models against Garak's Pr
 |-------|------------------|------------------|------------------|---------------|----------------|
 | **deepset-deberta** | 100.0% (excellent) | 100.0% (excellent) | 100.0% (excellent) | **100.0%** | ⭐⭐⭐⭐⭐ |
 | **testsavantai-prompt-injection-defender** | 100.0% (excellent) | 100.0% (excellent) | 100.0% (excellent) | **100.0%** | ⭐⭐⭐⭐⭐ |
+| **Aliyun AI Guardrails**| 100.0% (excellent) | 99.6% (OK) | 100.0% (excellent) | **99.8%** | ⭐⭐⭐⭐ |
 | **preambleai** | 97.3% (OK) | 95.7% (OK) | 99.6% (excellent) | **97.5%** | ⭐⭐⭐⭐ |
 | **protectai-v2** | 96.9% (OK) | 96.5% (OK) | 100.0% (excellent) | **97.8%** | ⭐⭐⭐⭐ |
 | **protectai-v1** | 95.3% (OK) | 94.1% (OK) | 100.0% (excellent) | **96.5%** | ⭐⭐⭐⭐ |
 | **qualifire** | 91.4% (OK) | 94.9% (OK) | 98.0% (OK) | **94.8%** | ⭐⭐⭐ |
 | **llama-prompt-guard** | 90.2% (OK) | 85.2% (OK) | 100.0% (excellent) | **91.8%** | ⭐⭐⭐ |
+| **Azure Prompt Shield** | 82.3%(OK) | 85.6%(OK) | 97.1%(OK) | **84.4%** | ⭐⭐⭐ |
 | **vijil-mbert-prompt-injection** | 81.6% (OK) | 69.1% (moderate) | 76.6% (moderate) | **75.8%** | ⭐⭐ |
+
 
 **Test Categories:**
 - **HijackHateHumans**: Tests against hate speech injection attacks
