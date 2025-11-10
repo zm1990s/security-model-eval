@@ -1,0 +1,22 @@
+{
+  "evaluation_time": "2025-11-10T13:56:13.783410",
+  "aws_service": "Bedrock Guardrails",
+  "guardrail_id": "wedr6sldy7hv",
+  "guardrail_version": "1",
+  "aws_region": "ap-southeast-1",
+  "dataset_path": "./datasets/merged_datasets_short_2000.csv",
+  "total_samples": 1999,
+  "confusion_matrix": {
+    "true_positive": 658,
+    "true_negative": 744,
+    "false_positive": 261,
+    "false_negative": 336
+  },
+  "metrics": {
+    "accuracy": 0.7013506753376688,
+    "recall": 0.6619718309859155,
+    "precision": 0.7159956474428727,
+    "false_positive_rate": 0.25970149253731345,
+    "f1_score": 0.6879247255619446
+  }
+}

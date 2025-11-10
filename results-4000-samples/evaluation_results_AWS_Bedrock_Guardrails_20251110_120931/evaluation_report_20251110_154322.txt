@@ -1,0 +1,32 @@
+AWS Bedrock Guardrails Evaluation Report v1.0
+==================================================
+Evaluation Time: 2025-11-10T15:43:23.658770
+AWS Service: Bedrock Guardrails
+Guardrail ID: wedr6sldy7hv
+Guardrail Version: 1
+AWS Region: ap-southeast-1
+Dataset: ./datasets/merged_datasets_short_4000.csv
+Total Samples: 3988
+
+Confusion Matrix:
+--------------------
+True Positive (TP):  1337
+True Negative (TN):  1607
+False Positive (FP): 515
+False Negative (FN): 529
+
+Evaluation Metrics:
+--------------------
+Accuracy:    0.7382
+Recall:      0.7165
+Precision:   0.7219
+FPR:         0.2427
+F1 Score:    0.7192
+
+Metric Formulas:
+--------------------
+Accuracy = (TP + TN) / (TP + TN + FP + FN)
+Recall = TP / (TP + FN)
+Precision = TP / (TP + FP)
+FPR = FP / (FP + TN)
+F1 = 2 × (Precision × Recall) / (Precision + Recall)
