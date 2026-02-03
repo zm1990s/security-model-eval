@@ -1,0 +1,22 @@
+Qwen3Guard Model Evaluation Report
+==================================================
+Evaluation Time: 2025-11-17T18:08:51.998774
+Model Path: ./qwen3-guard-4b
+Model Name: ._qwen3-guard-4b
+Dataset: ./datasets/merged_datasets_short_1000.csv
+Total Samples: 1000
+
+Confusion Matrix:
+--------------------
+True Positive (TP):  356
+True Negative (TN):  415
+False Positive (FP): 100
+False Negative (FN): 129
+
+Evaluation Metrics:
+--------------------
+Accuracy:    0.7710
+Recall:      0.7340
+Precision:   0.7807
+FPR:         0.1942
+F1 Score:    0.7566
