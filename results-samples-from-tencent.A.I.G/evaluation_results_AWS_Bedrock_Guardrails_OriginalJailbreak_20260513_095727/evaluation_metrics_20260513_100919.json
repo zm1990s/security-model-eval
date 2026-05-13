@@ -1,0 +1,21 @@
+{
+  "evaluation_time": "2026-05-13T10:09:20.024543",
+  "aws_service": "Bedrock Guardrails",
+  "guardrail_id": "uwxy3rdw5bhz",
+  "guardrail_version": "1",
+  "aws_region": "us-west-1",
+  "dataset_path": "original_jailbreak_library.jsonl",
+  "dataset_type": "attack_only_jsonl",
+  "metrics": {
+    "total_samples": 249,
+    "blocked_attacks": 115,
+    "missed_attacks": 134,
+    "unknown_predictions": 0,
+    "block_rate": 0.46184738955823296,
+    "miss_rate": 0.5381526104417671,
+    "recall_on_attacks": 0.46184738955823296,
+    "successful_predictions": 249,
+    "failed_predictions": 0,
+    "success_rate": 1.0
+  }
+}

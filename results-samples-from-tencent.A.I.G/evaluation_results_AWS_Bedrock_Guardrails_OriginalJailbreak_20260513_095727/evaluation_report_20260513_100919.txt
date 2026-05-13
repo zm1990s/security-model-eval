@@ -1,0 +1,21 @@
+AWS Bedrock Guardrails Evaluation Report (Attack-only JSONL)
+============================================================
+Evaluation Time: 2026-05-13T10:09:20.024470
+Guardrail ID: uwxy3rdw5bhz
+Guardrail Version: 1
+AWS Region: us-west-1
+Dataset: original_jailbreak_library.jsonl
+
+Note: This dataset contains attack samples only (true_label=1 for all rows).
+      Accuracy/precision/FPR are not informative under this setting.
+
+Total Samples: 249
+Successful Predictions: 249
+Failed Predictions: 0
+Success Rate: 1.0000
+
+Blocked Attacks: 115
+Missed Attacks: 134
+Unknown Predictions: 0
+Block Rate (Recall on attacks): 0.4618
+Miss Rate: 0.5382
