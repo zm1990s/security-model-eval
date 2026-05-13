@@ -25,7 +25,7 @@ python model-eval-aws-bedrock-guardrails-tencent.py \
 """
 
 # AWS Guardrails Configuration
-GUARDRAIL_ID = "uwxy3rdw5bhz"
+GUARDRAIL_ID = "XXXX"
 GUARDRAIL_VERSION = "1"
 AWS_REGION = "us-west-1"
 
